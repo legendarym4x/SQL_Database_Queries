@@ -1,4 +1,4 @@
-## Homework 06
+## SQL Database Queries
 
 We implemented a database, the scheme of which contains:
 
@@ -6,7 +6,8 @@ We implemented a database, the scheme of which contains:
      Table of groups;
      Table of teachers;
      Table of subjects with the indication of the teacher who reads the subject;
-     A table where each student has grades in subjects with an indication of when the grade was received.
+     A table where each student has grades in subjects with an indication of when
+        the grade was received.
 
 The resulting database was filled with random data (~30-50 students, 3 groups, 5-8 subjects, 3-5 teachers, up to 20 grades for each student in all subjects). We used the `Faker` package to fill the tables with the necessary data.
 
